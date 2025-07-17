@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Alaskcan - Tienda de Mascotas</title>
+  <!-- Poppins font for modern elegant typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="web.css" />
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+</head>
+<body>
+  <!-- Sticky Header with logo and nav -->
+  <header class="header">
+    <div class="container header-container">
+      <a href="#" class="logo">Alaskcan</a>
+      <nav class="nav" aria-label="Navegación principal">
+        <ul class="nav-list">
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Productos</a></li>
+          <li><a href="#">Nosotros</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </nav>
+      <a href="login.html"><button class="btn-primary header-cta">¡Inicia Sesión o Regístrate!</button></a>
+    </div>
+  </header>
+  
+  <main>
+    <!-- Hero Section with Swiper Carousel -->
+    <section class="hero">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+             <img
+              src="carrusel1.jpg"
+              alt="Alimento para perros saludable"
+              class="product-image"
+              loading="lazy"
+              />
+            <h1 class="hero-title">Tu mejor amigo merece lo mejor</h1>
+            <p class="hero-subtitle">
+              Descubre productos saludables y de alta calidad para el cuidado de tus mascotas.
+            </p>
+            <a href="#productos" class="btn-primary hero-cta">Ver Productos</a>
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="carrusel1.jpg"
+              alt="Alimento para perros saludable"
+              class="product-image"
+              loading="lazy"
+            />
+            <h1 class="hero-title">Juguetes que estimulan el juego</h1>
+            <p class="hero-subtitle">
+              Mantén a tus mascotas activas y felices con nuestra variedad de juguetes.
+               </p>
+            <a href="#productos" class="btn-primary hero-cta">Ver Juguetes</a>
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="carrusel1.jpg"
+              alt="Juguete interactivo para gatos"
+              class="product-image"
+              loading="lazy"
+            />
+            <h1 class="hero-title">Alimentos naturales y nutritivos</h1>
+            <p class="hero-subtitle">
+              Solo lo mejor para la salud y vitalidad de tu compañero peludo.
+               </p>
+            <a href="#productos" class="btn-primary hero-cta">Ver Alimentación</a>
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="carrusel1.jpg"
+              alt="Cama cómoda para mascotas"
+              class="product-image"
+              loading="lazy"
+            />
+            <h1 class="hero-title">Comodidad para días de descanso</h1>
+            <p class="hero-subtitle">
+              Camas ergonómicas que se adaptan a cada mascota.
+            </p>
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="carrusel1.jpg"
+              alt="Accesorios para gatos"
+              class="product-image"
+              loading="lazy"
+            />
+            <h1 class="hero-title">Cuidado y accesorios de calidad</h1>
+            <p class="hero-subtitle">
+              Descubre productos saludables y de alta calidad para el cuidado de tus mascotas.
+            </p>
+          </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Navigation -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="productos" class="products-section">
+      <div class="container">
+        <h2 class="section-title">Productos Destacados</h2>
+        <div class="product-grid">
+          <article class="product-card">
+            <img
+              src="https://cdn.lorem.space/images/pets/.cache/dog-breed-1.png"
+              alt="Alimento para perros saludable"
+              class="product-image"
+              loading="lazy"
+            />
+            <h3 class="product-name">Alimento Natural para Perros</h3>
+            <p class="product-description">
+              Nutrición balanceada, sin conservantes ni colorantes.
+            </p>
+          </article>
+          <article class="product-card">
+            <img
+              src="https://cdn.lorem.space/images/pets/.cache/cat-5.png"
+              alt="Juguete interactivo para gatos"
+              class="product-image"
+              loading="lazy"
+            />
+            <h3 class="product-name">Juguete Interactivo para Gatos</h3>
+            <p class="product-description">
+              Estimula el juego y la actividad física de tu gato.
+            </p>
+          </article>
+          <article class="product-card">
+            <img
+              src="https://cdn.lorem.space/images/pets/.cache/dog-breed-3.png"
+              alt="Cama cómoda para mascotas"
+              class="product-image"
+              loading="lazy"
+            />
+            <h3 class="product-name">Cama Ergonómica para Mascotas</h3>
+            <p class="product-description">
+              Diseño confortable que se adapta al cuerpo de tu amigo.
+            </p>
+          </article>
+          <article class="product-card">
+            <img
+              src="https://cdn.lorem.space/images/pets/.cache/cat-8.png"
+              alt="Accesorios para gatos"
+              class="product-image"
+              loading="lazy"
+            />
+            <h3 class="product-name">Accesorios de Calidad para Gatos</h3>
+            <p class="product-description">
+              Rascadores, árboles y más para mantener a tu gato feliz.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <p>© 2025 Alaskcan. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper('.swiper-container', {
+      loop: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+    });
+  </script>
+</body>
+</html>
